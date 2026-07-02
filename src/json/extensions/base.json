@@ -182,10 +182,13 @@
     {
         "name": "actions",
         "enabled": true,
-        "type": "copy",
-        "filenames": [
-            "actions.png"
+        "type": "build",
+        "dimensions": [
+            2,
+            2
         ],
-        "args": []
+        "args": [
+            "no_label"
+        ]
     }
 ]

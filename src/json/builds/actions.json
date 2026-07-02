@@ -1,0 +1,107 @@
+[
+    {
+        "type": "insert text",
+        "collumn": "action_a",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            175,
+            100,
+            600,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "action_b",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            175,
+            320,
+            600,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "action_c",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            175,
+            540,
+            600,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "action_d",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            175,
+            760,
+            600,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "action_e",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            175,
+            980,
+            600,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    }
+]
