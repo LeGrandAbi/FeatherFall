@@ -1,0 +1,78 @@
+[
+    {
+        "type": "insert image",
+        "collumn": "illustration",
+        "pos": [
+            175,
+            250,
+            550,
+            450
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            60,
+            700,
+            150
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "tags",
+        "font": "EBGaramond-Bold",
+        "cpl": 50,
+        "color": [
+            120,
+            30,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            750,
+            700,
+            125
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description",
+        "font": "EBGaramond-Regular",
+        "cpl": 25,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            125,
+            875,
+            650,
+            300
+        ],
+        "specs": [
+            "fit"
+        ]
+    }
+]

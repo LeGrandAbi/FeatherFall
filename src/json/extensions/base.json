@@ -1,0 +1,168 @@
+[
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "competences",
+        "dimensions": [
+            5,
+            2
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "blessures",
+        "dimensions": [
+            5,
+            2
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "evenements_plaine",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "evenements_foret",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "evenements_nuit",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "butins",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "consommables",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "armes",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "babioles",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "marqueurs",
+        "dimensions": [
+            7,
+            11
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "quetes",
+        "dimensions": [
+            2,
+            1
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "build",
+        "name": "missions",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "tuiles",
+        "filenames": [
+            "all"
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "temps",
+        "filenames": [
+            "tuile_temps.png"
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "guide",
+        "filenames": [
+            "guide_front.png",
+            "guide_back.png"
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "devises",
+        "filenames": [
+            "piece_or.png",
+            "piece_volonte.png"
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "bordures",
+        "filenames": [
+            "all"
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "coins",
+        "filenames": [
+            "all"
+        ]
+    },
+    {
+        "enabled": true,
+        "type": "copy",
+        "name": "actions",
+        "filenames": [
+            "actions.png"
+        ]
+    }
+]

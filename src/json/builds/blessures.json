@@ -1,0 +1,57 @@
+[
+    {
+        "type": "insert image",
+        "collumn": "illustration",
+        "pos": [
+            50,
+            235,
+            600 ,
+            450
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            50,
+            50,
+            600,
+            150
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description",
+        "font": "EBGaramond-Regular",
+        "cpl": 25,
+        "color": [
+            30,
+            30,
+            50,
+            0
+        ],
+        "pos": [
+            50,
+            725,
+            600,
+            350
+        ],
+        "specs": [
+            "fit"
+        ]
+    }
+]

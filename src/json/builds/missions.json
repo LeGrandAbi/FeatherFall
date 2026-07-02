@@ -1,0 +1,66 @@
+[
+    {
+        "type": "insert text",
+        "collumn": "description",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            450,
+            850,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "objectif",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            150,
+            850,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "recompense",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            150,
+            350,
+            750,
+            100
+        ],
+        "specs": [
+            "fit"
+        ]
+    }
+
+]

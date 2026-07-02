@@ -1,0 +1,212 @@
+[
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            100,
+            800,
+            132
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "prologue",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            125,
+            300,
+            750,
+            265
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "1_objectif",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            632,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "1_description",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            532,
+            632,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "2_objectif",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            886,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "2_description",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            532,
+            886,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "3_objectif",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            1140,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "3_description",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            532,
+            1140,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "2_objectif",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            1394,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "2_description",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            532,
+            1394,
+            375,
+            210
+        ],
+        "specs": [
+            "fit"
+        ]
+    }
+]
