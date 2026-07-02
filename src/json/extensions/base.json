@@ -1,168 +1,189 @@
 [
     {
-        "enabled": true,
-        "type": "build",
         "name": "competences",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             5,
             2
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "blessures",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             5,
             2
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "evenements_plaine",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "evenements_foret",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "evenements_nuit",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "butins",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "consommables",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "armes",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "build",
         "name": "babioles",
+        "enabled": true,
+        "type": "build",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
+        "name": "marqueurs",
         "enabled": true,
         "type": "build",
-        "name": "marqueurs",
         "dimensions": [
             7,
             11
+        ],
+        "args": [
+            "no_label"
         ]
     },
     {
+        "name": "quetes",
         "enabled": true,
         "type": "build",
-        "name": "quetes",
         "dimensions": [
             2,
             1
-        ]
+        ],
+        "args": []
     },
     {
+        "name": "missions",
         "enabled": true,
         "type": "build",
-        "name": "missions",
         "dimensions": [
             4,
             4
-        ]
+        ],
+        "args": []
     },
     {
+        "name": "tuiles",
         "enabled": true,
         "type": "copy",
-        "name": "tuiles",
         "filenames": [
             "all"
-        ]
+        ],
+        "args": []
     },
     {
+        "name": "temps",
         "enabled": true,
         "type": "copy",
-        "name": "temps",
         "filenames": [
             "tuile_temps.png"
-        ]
+        ],
+        "args": []
     },
     {
+        "name": "guide",
         "enabled": true,
         "type": "copy",
-        "name": "guide",
         "filenames": [
             "guide_front.png",
             "guide_back.png"
-        ]
+        ],
+        "args": []
     },
     {
+        "name": "devises",
         "enabled": true,
         "type": "copy",
-        "name": "devises",
         "filenames": [
             "piece_or.png",
             "piece_volonte.png"
-        ]
+        ],
+        "args": []
     },
     {
-        "enabled": true,
-        "type": "copy",
         "name": "bordures",
-        "filenames": [
-            "all"
-        ]
-    },
-    {
         "enabled": true,
         "type": "copy",
+        "filenames": [
+            "all"
+        ],
+        "args": []
+    },
+    {
         "name": "coins",
-        "filenames": [
-            "all"
-        ]
-    },
-    {
         "enabled": true,
         "type": "copy",
+        "filenames": [
+            "all"
+        ],
+        "args": []
+    },
+    {
         "name": "actions",
+        "enabled": true,
+        "type": "copy",
         "filenames": [
             "actions.png"
-        ]
+        ],
+        "args": []
     }
 ]

@@ -4,7 +4,7 @@ import legrandabi_cards_utils as lcu
 from settings import s
 from pathlib import Path
 
-def build_cards(extension, category):
+def build_cards(extension, category, args):
     lcu.print_title(f"BUILDING {extension.upper()} {category.upper()}")
 
     if s.SAVE_CARDS:
@@ -22,7 +22,8 @@ def build_cards(extension, category):
         card = base.copy()
         for instruction in instructions:
             handle_instruction(instruction, card, card_info, extension, category)
-        apply_label(card, extension)
+        if not("no_label" in args):
+            apply_label(card, extension)
 
         name = card_info["id"]
 
@@ -42,7 +43,7 @@ def build_cards(extension, category):
     return cards
 
 
-def build_printables(cards, extension, category, dimensions=(4,4)):
+def build_printables(cards, extension, category, dimensions, args):
     lcu.print_title(f"BUILDING {extension.upper()} {category.upper()} PRINTABLES")
 
     lcu.empty_directory(f"{s.PATH_PRINTABLES}/{extension}/{category}")
