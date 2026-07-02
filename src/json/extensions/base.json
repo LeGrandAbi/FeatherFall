@@ -152,12 +152,14 @@
     {
         "name": "devises",
         "enabled": true,
-        "type": "copy",
-        "filenames": [
-            "piece_or.png",
-            "piece_volonte.png"
+        "type": "build",
+        "dimensions": [
+            9,
+            11
         ],
-        "args": []
+        "args": [
+            "no_label"
+        ]
     },
     {
         "name": "bordures",
