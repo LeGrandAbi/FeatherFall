@@ -1,27 +1,6 @@
 [
     {
         "type": "insert text",
-        "collumn": "name",
-        "font": "AncientMedium",
-        "cpl": 50,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            150,
-            175,
-            600,
-            200
-        ],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert text",
         "collumn": "effet",
         "font": "EBGaramond-Regular",
         "cpl": 25,
@@ -32,10 +11,10 @@
             0
         ],
         "pos": [
-            150,
-            500,
-            600,
-            400
+            65,
+            680,
+            860,
+            350
         ],
         "specs": [
             "fit"
@@ -53,13 +32,41 @@
             0
         ],
         "pos": [
-            150,
-            925,
-            600,
-            400
+            140,
+            1090,
+            720,
+            465
         ],
         "specs": [
             "fit"
+        ]
+    },
+    {
+        "type": "insert image",
+        "collumn": "illustration",
+        "pos": [
+            50,
+            50,
+            890,
+            650
+        ],
+        "specs": [
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/base/event_foret/background.png",
+        "pos": [
+            50,
+            50,
+            890,
+            650
+        ],
+        "specs": [
+            "fit",
+            "background"
         ]
     }
 ]
