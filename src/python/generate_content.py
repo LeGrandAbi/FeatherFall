@@ -169,9 +169,18 @@ def apply_surf(surf, dest, instruction):
             case "rotate" :
                 rot = int(args[1])
                 surf = pg.transform.rotate(surf, rot)
+            case "background":
+                # the background argument is a blit operation and is therefor treated later
+                pass
             case _ :
                 lcu.print_error(f"Incorrect specs argument : \"{args[0]}\"")
-    dest.blit(surf, surf.get_rect(center=rect.center))
+    if "background" in specs:
+        new_dest = pg.Surface(dest.get_size(), pg.SRCALPHA)
+        new_dest.blit(surf, surf.get_rect(center=rect.center))
+        new_dest.blit(dest, (0,0))
+        dest.blit(new_dest, (0,0))
+    else:
+        dest.blit(surf, surf.get_rect(center=rect.center))
 
 
 def apply_label(card, extension):
