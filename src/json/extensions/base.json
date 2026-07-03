@@ -50,6 +50,16 @@
         "args": []
     },
     {
+        "name": "evenements_village",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [
+            4,
+            4
+        ],
+        "args": []
+    },
+    {
         "name": "butins",
         "enabled": true,
         "type": "build",
