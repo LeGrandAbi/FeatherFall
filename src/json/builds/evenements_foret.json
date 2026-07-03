@@ -2,8 +2,8 @@
     {
         "type": "insert text",
         "collumn": "effet",
-        "font": "EBGaramond-Regular",
-        "cpl": 25,
+        "font": "EBGaramond-Bold",
+        "cpl": 30,
         "color": [
             0,
             0,
@@ -24,7 +24,7 @@
         "type": "insert text",
         "collumn": "description",
         "font": "EBGaramond-Regular",
-        "cpl": 25,
+        "cpl": 30,
         "color": [
             0,
             0,
