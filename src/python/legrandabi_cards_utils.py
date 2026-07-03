@@ -13,6 +13,7 @@ from image_viewer import ImageViewer
 def init():
 	pg.init()
 	pg.font.init()
+	pg.display.set_mode((100,100)).convert_alpha()
 	execute_command(["mkdir", "content"])
 	execute_command(["mkdir", s.PATH_STANDALONES])
 	execute_command(["mkdir", s.PATH_PRINTABLES])
@@ -104,20 +105,20 @@ def get_time_str():
 
 def load_image(filepath):
     try:
-        image = pg.image.load(filepath)
+        image = pg.image.load(filepath).convert_alpha()
     except FileNotFoundError as e:
         print_error(f"Couldn't load image : {filepath}")
-        image = pg.image.load(f"{s.PATH_ILLUSTRATIONS}/wip.png")
+        image = pg.image.load(f"{s.PATH_ILLUSTRATIONS}/wip.png").convert_alpha()
     return image
 
 
 def load_base(filepath):
     print_info(f"Loading base : {filepath}")
     try:
-        base = pg.image.load(filepath)
+        base = pg.image.load(filepath).convert_alpha()
     except FileNotFoundError as e:
         print_error("Couldn't load base", e)
-        base = pg.image.load(f"{s.PATH_BASES}/wip.png")
+        base = pg.image.load(f"{s.PATH_BASES}/wip.png").convert_alpha()
     return base
 
 
