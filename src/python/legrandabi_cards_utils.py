@@ -13,7 +13,7 @@ from image_viewer import ImageViewer
 def init():
 	pg.init()
 	pg.font.init()
-	pg.display.set_mode((100,100)).convert_alpha()
+	pg.display.set_mode((100,100), pg.HIDDEN).convert_alpha()
 	execute_command(["mkdir", "content"])
 	execute_command(["mkdir", s.PATH_STANDALONES])
 	execute_command(["mkdir", s.PATH_PRINTABLES])
