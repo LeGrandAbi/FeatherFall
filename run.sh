@@ -1,1 +1,1 @@
-python3 src/python/main.py base
+python3 src/python/main.py jeu_de_base
