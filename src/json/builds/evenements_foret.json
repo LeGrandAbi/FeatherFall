@@ -1,5 +1,14 @@
 [
     {
+        "type": "insert label",
+        "pos": [
+            50,
+            50,
+            100,
+            100
+        ]
+    },
+    {
         "type": "insert text",
         "collumn": "effet",
         "font": "EBGaramond-Bold",
@@ -67,6 +76,15 @@
         "specs": [
             "fit",
             "background"
+        ]
+    },
+    {
+        "type": "insert label",
+        "pos": [
+            50,
+            50,
+            100,
+            100
         ]
     }
 ]

@@ -23,14 +23,13 @@ for extension in extensions:
 			lcu.print_info(f"Skipping {category_name}")
 		else:
 			type = category["type"]
-			args = category["args"]
 			if type == "build":
-				cards = gc.build_cards(extension, category_name, args)
+				cards = gc.build_cards(extension, category_name)
 				if s.VIEW_CARDS:
 					lcu.view_images(cards, category_name)
 				if s.MAKE_PRINTABLES:
 					dimensions = category["dimensions"]
-					gc.build_printables(cards, extension, category_name, dimensions, args)
+					gc.build_printables(cards, extension, category_name, dimensions)
 			elif type == "copy":
 				filenames = category["filenames"]
 				gc.copy_content(extension, category_name, filenames)

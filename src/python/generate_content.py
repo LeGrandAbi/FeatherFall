@@ -4,7 +4,7 @@ import legrandabi_cards_utils as lcu
 from settings import s
 from pathlib import Path
 
-def build_cards(extension, category, args):
+def build_cards(extension, category):
     lcu.print_title(f"BUILDING {extension.upper()} {category.upper()}")
 
     if s.SAVE_CARDS:
@@ -22,8 +22,6 @@ def build_cards(extension, category, args):
         card = base.copy()
         for instruction in instructions:
             handle_instruction(instruction, card, card_info, extension, category)
-        if not("no_label" in args):
-            apply_label(card, extension)
 
         name = card_info["id"]
 
@@ -43,7 +41,7 @@ def build_cards(extension, category, args):
     return cards
 
 
-def build_printables(cards, extension, category, dimensions, args):
+def build_printables(cards, extension, category, dimensions):
     lcu.print_title(f"BUILDING {extension.upper()} {category.upper()} PRINTABLES")
 
     lcu.empty_directory(f"{s.PATH_PRINTABLES}/{extension}/{category}")
@@ -126,6 +124,8 @@ def handle_instruction(instruction, card, card_info, extension, category):
         case "insert static image" :
             filepath = f"{instruction["filepath"]}"
             insert_image(instruction, card, filepath)
+        case "insert label" :
+            insert_label(instruction, card, extension)
         case _ :
             lcu.print_error(f"Incorrect instruction type : \"{instruction["type"]}\"")
 
@@ -183,9 +183,9 @@ def apply_surf(surf, dest, instruction):
         dest.blit(surf, surf.get_rect(center=rect.center))
 
 
-def apply_label(card, extension):
+def insert_label(instruction, card, extension):
+    rect = pg.Rect(instruction["pos"])
     filepath = f"{s.PATH_LABELS}/{extension}.png"
-    surf = lcu.load_image(filepath)
-    rect = pg.Rect(s.LABEL_RECT)
+    surf = pg.image.load(filepath).convert_alpha()
     surf = lcu.fit_surf(surf, rect)
-    card.blit(surf, rect)
+    card.blit(surf, surf.get_rect(center=rect.center))

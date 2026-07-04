@@ -38,6 +38,4 @@ class Settings:
 		self.PRINT_TITLE_COLOR = 36
 		self.PRINT_ERROR_COLOR = 37
 
-		self.LABEL_RECT = (50, 50, 100, 100)
-		
 s = Settings()

@@ -6,8 +6,7 @@
         "dimensions": [
             5,
             2
-        ],
-        "args": []
+        ]
     },
     {
         "name": "blessures",
@@ -16,8 +15,7 @@
         "dimensions": [
             5,
             2
-        ],
-        "args": []
+        ]
     },
     {
         "name": "evenements_plaine",
@@ -26,8 +24,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "evenements_foret",
@@ -36,8 +33,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "evenements_nuit",
@@ -46,8 +42,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "evenements_village",
@@ -56,8 +51,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "butins",
@@ -66,8 +60,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "consommables",
@@ -76,8 +69,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "armes",
@@ -86,8 +78,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "babioles",
@@ -96,8 +87,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "marqueurs",
@@ -106,9 +96,6 @@
         "dimensions": [
             7,
             11
-        ],
-        "args": [
-            "no_label"
         ]
     },
     {
@@ -118,8 +105,7 @@
         "dimensions": [
             2,
             1
-        ],
-        "args": []
+        ]
     },
     {
         "name": "missions",
@@ -128,8 +114,7 @@
         "dimensions": [
             4,
             4
-        ],
-        "args": []
+        ]
     },
     {
         "name": "tuiles",
@@ -137,8 +122,7 @@
         "type": "copy",
         "filenames": [
             "all"
-        ],
-        "args": []
+        ]
     },
     {
         "name": "temps",
@@ -146,8 +130,7 @@
         "type": "copy",
         "filenames": [
             "tuile_temps.png"
-        ],
-        "args": []
+        ]
     },
     {
         "name": "guide",
@@ -156,8 +139,7 @@
         "filenames": [
             "guide_front.png",
             "guide_back.png"
-        ],
-        "args": []
+        ]
     },
     {
         "name": "devises",
@@ -166,9 +148,6 @@
         "dimensions": [
             9,
             11
-        ],
-        "args": [
-            "no_label"
         ]
     },
     {
@@ -177,8 +156,7 @@
         "type": "copy",
         "filenames": [
             "all"
-        ],
-        "args": []
+        ]
     },
     {
         "name": "coins",
@@ -186,8 +164,7 @@
         "type": "copy",
         "filenames": [
             "all"
-        ],
-        "args": []
+        ]
     },
     {
         "name": "actions",
@@ -196,9 +173,6 @@
         "dimensions": [
             2,
             2
-        ],
-        "args": [
-            "no_label"
         ]
     }
 ]
