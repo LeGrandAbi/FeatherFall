@@ -15,6 +15,7 @@ class Settings:
 		self.PATH_ILLUSTRATIONS = "src/images/illustrations"
 		self.PATH_FONTS = "src/fonts"
 		self.PATH_LABELS = "src/images/labels"
+		self.PATH_ICONS = "src/images/icons"
 		self.PATH_STANDALONES = "content/standalones"
 		self.PATH_PRINTABLES = "content/printables"
 

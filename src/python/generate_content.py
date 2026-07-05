@@ -126,6 +126,9 @@ def handle_instruction(instruction, card, card_info, extension, category):
             insert_image(instruction, card, filepath)
         case "insert label" :
             insert_label(instruction, card, extension)
+        case "insert icons" :
+            icons = card_info[instruction["collumn"]].split(", ")
+            insert_icons(instruction, card, icons)
         case _ :
             lcu.print_error(f"Incorrect instruction type : \"{instruction["type"]}\"")
 
@@ -189,3 +192,16 @@ def insert_label(instruction, card, extension):
     surf = pg.image.load(filepath).convert_alpha()
     surf = lcu.fit_surf(surf, rect)
     card.blit(surf, surf.get_rect(center=rect.center))
+
+
+def insert_icons(instruction, card, icons):
+    rect = pg.Rect(instruction["pos"])
+    dx, dy = instruction["displacement"]
+    offset = instruction["offset"]
+    for icon in icons:
+        filepath = f"{s.PATH_ICONS}/{icon}.png"
+        surf = lcu.load_image(filepath)
+        surf = lcu.fit_surf(surf, rect)
+        card.blit(surf, surf.get_rect(center=rect.center))
+        rect.x += dx*(rect.width + offset)
+        rect.y += dy*(rect.width + offset)
