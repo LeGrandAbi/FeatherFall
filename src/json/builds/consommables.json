@@ -76,6 +76,21 @@
         ]
     },
     {
+        "type": "insert icons",
+        "collumn": "tags",
+        "pos": [
+            650,
+            50,
+            100,
+            100
+        ],
+        "displacement": [
+            -1,
+            0
+        ],
+        "offset": 15
+    },
+    {
         "type": "insert label",
         "pos": [
             50,
