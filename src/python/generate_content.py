@@ -127,7 +127,8 @@ def handle_instruction(instruction, card, card_info, extension, category):
         case "insert label" :
             insert_label(instruction, card, extension)
         case "insert icons" :
-            icons = card_info[instruction["collumn"]].split(", ")
+            icons = str(card_info[instruction["collumn"]])
+            icons = icons.split(", ")
             insert_icons(instruction, card, icons)
         case _ :
             lcu.print_error(f"Incorrect instruction type : \"{instruction["type"]}\"")
