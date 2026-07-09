@@ -104,7 +104,9 @@ def copy_content(extension, category, filenames):
         filepaths = [f for f in directory.iterdir() if f.is_file()]
         for filepath in filepaths:
             path = str(filepath).split("/")
-            filenames.append(path[-1])
+            filename = path[-1]
+            if (len(filename) > 4) and (filename[-4:] == ".png"):
+                filenames.append(filename)
 
     for filename in filenames:
         filepath = f"{s.PATH_ILLUSTRATIONS}/{extension}/{category}/{filename}"
