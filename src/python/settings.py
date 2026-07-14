@@ -8,6 +8,7 @@ class Settings:
 		self.VIEW_CARDS = False
 		self.MAKE_PRINTABLES = True
 
+		self.PATH_SCRIPTS = "src/python/scripts"
 		self.PATH_BASES = "src/images/bases"
 		self.PATH_SHEETS = "src/sheets"
 		self.PATH_BUILDS = "src/json/builds"

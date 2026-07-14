@@ -174,5 +174,11 @@
             2,
             2
         ]
+    },
+    {
+        "name": "village",
+        "enabled": true,
+        "type": "script",
+        "filename": "generate_villages.py"
     }
 ]
