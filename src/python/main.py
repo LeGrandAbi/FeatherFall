@@ -33,9 +33,6 @@ for extension in extensions:
 			elif type == "copy":
 				filenames = category["filenames"]
 				gc.copy_content(extension, category_name, filenames)
-			elif type == "script":
-				filename = category["filename"]
-				gc.execute_script(extension, category_name, filename)
 			else:
 				lcu.print_error(f"Unrecognized category type : {type}")
 

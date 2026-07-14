@@ -115,11 +115,6 @@ def copy_content(extension, category, filenames):
         lcu.execute_command(["cp", filepath, dest])
 
 
-def execute_script(extension, category, filename):
-    filepath = f"{s.PATH_SCRIPTS}/{filename}"
-    lcu.execute_command(["python3", filepath, extension, category])
-
-
 def handle_instruction(instruction, card, card_info, extension, category):
     match instruction["type"].lower():
         case "insert text" : 

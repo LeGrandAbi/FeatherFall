@@ -176,9 +176,12 @@
         ]
     },
     {
-        "name": "village",
+        "name": "villages",
         "enabled": true,
-        "type": "script",
-        "filename": "generate_villages.py"
+        "type": "build",
+        "dimensions": [
+            1,
+            1
+        ]
     }
 ]
