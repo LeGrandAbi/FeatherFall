@@ -3,13 +3,28 @@
         "type": "insert image",
         "collumn": "illustration",
         "pos": [
-            175,
-            250,
-            550,
-            450
+            63,
+            218,
+            873,
+            550
         ],
         "specs": [
-            "fit"
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/babioles/_background.png",
+        "pos": [
+            48,
+            122,
+            910,
+            780
+        ],
+        "specs": [
+            "fit",
+            "background"
         ]
     },
     {
@@ -25,9 +40,9 @@
         ],
         "pos": [
             100,
-            60,
-            700,
-            150
+            790,
+            800,
+            275
         ],
         "specs": [
             "fit"
@@ -45,10 +60,10 @@
             0
         ],
         "pos": [
-            125,
-            875,
-            650,
-            300
+            70,
+            1175,
+            845,
+            450
         ],
         "specs": [
             "fit"
@@ -58,10 +73,10 @@
         "type": "insert icons",
         "collumn": "tags",
         "pos": [
-            650,
-            50,
-            100,
-            100
+            812,
+            63,
+            125,
+            125
         ],
         "displacement": [
             -1,
@@ -72,10 +87,10 @@
     {
         "type": "insert label",
         "pos": [
-            50,
-            50,
-            100,
-            100
+            60,
+            63,
+            125,
+            125
         ]
     }
 ]
