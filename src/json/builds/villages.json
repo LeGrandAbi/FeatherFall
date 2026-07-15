@@ -2,12 +2,237 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [
-            0,
-            0,
-            3000,
-            2000
-        ],
+        "pos": [0, 500, 3000, 2000],
+        "specs": [
+            "background"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [810, 100, 1435, 325],
+        "specs": [
+            "fit"
+        ]
+    },
+
+
+
+
+
+    {
+        "type": "insert image",
+        "collumn": "illustration_a",
+        "pos": [500, 550, 1000, 1000],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
+        "pos": [150, 550, 900, 900],
+        "specs": [
+            "opacity 200"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
+        "pos": [150, 500, 900, 500],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name_a",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [225, 645, 735, 185],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_a",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [175, 875, 850, 365],
+        "specs": [
+            "fit"
+        ]
+    },
+
+
+
+
+
+    {
+        "type": "insert image",
+        "collumn": "illustration_b",
+        "pos": [1500, 550, 1000, 1000],
+        "specs": [
+            "fit",
+            "flip horizontal"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
+        "pos": [1950, 550, 900, 900],
+        "specs": [
+            "opacity 200"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
+        "pos": [1950, 500, 900, 500],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name_b",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [2025, 645, 735, 185],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_b",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [1975, 875, 850, 365],
+        "specs": [
+            "fit"
+        ]
+    },
+
+
+
+
+
+    {
+        "type": "insert image",
+        "collumn": "illustration_c",
+        "pos": [500, 1250, 1000, 1000],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
+        "pos": [150, 1650, 900, 900],
+        "specs": [
+            "opacity 200"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
+        "pos": [150, 1600, 900, 500],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name_c",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [225, 1745, 735, 185],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_c",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [175, 1975, 850, 365],
+        "specs": [
+            "fit"
+        ]
+    },
+
+
+
+
+
+    {
+        "type": "insert image",
+        "collumn": "illustration_d",
+        "pos": [1500, 1250, 1000, 1000],
+        "specs": [
+            "fit",
+            "flip horizontal"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
+        "pos": [1950, 1650, 900, 900],
+        "specs": [
+            "opacity 200"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
+        "pos": [1950, 1600, 900, 500],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name_d",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [2025, 1745, 735, 185],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_d",
+        "font": "EBGaramond-Bold",
+        "cpl": 32,
+        "color": [0, 0, 0, 0],
+        "pos": [1975, 1975, 850, 365],
+        "specs": [
+            "fit"
+        ]
+    },
+
+
+
+
+
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/event_pannel.png",
+        "pos": [1500, 1500, 0, 0],
         "specs": []
     }
 ]
