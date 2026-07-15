@@ -175,6 +175,9 @@ def apply_surf(surf, dest, instruction):
             case "rotate" :
                 rot = int(args[1])
                 surf = pg.transform.rotate(surf, rot)
+            case "opacity":
+                opacity = int(args[1])
+                surf.set_alpha(opacity)
             case "background":
                 # the background argument is a blit operation and is therefor treated later
                 pass
