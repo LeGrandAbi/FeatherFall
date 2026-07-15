@@ -6,7 +6,7 @@ class Settings:
 
 		self.SAVE_CARDS = True
 		self.VIEW_CARDS = False
-		self.MAKE_PRINTABLES = True
+		self.MAKE_PRINTABLES = False
 
 		self.PATH_BASES = "src/images/bases"
 		self.PATH_SHEETS = "src/sheets"
