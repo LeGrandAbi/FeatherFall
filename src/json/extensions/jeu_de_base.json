@@ -63,6 +63,24 @@
         ]
     },
     {
+        "name": "butin_armes",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
+        "name": "butin_babioles",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [
+            4,
+            4
+        ]
+    },
+    {
         "name": "consommables",
         "enabled": true,
         "type": "build",
