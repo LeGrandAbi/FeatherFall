@@ -1,0 +1,96 @@
+[
+    {
+        "type": "insert image",
+        "collumn": "illustration",
+        "pos": [
+            63,
+            218,
+            873,
+            550
+        ],
+        "specs": [
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/butin_armes/_background.png",
+        "pos": [
+            48,
+            122,
+            910,
+            780
+        ],
+        "specs": [
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            790,
+            800,
+            275
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description",
+        "font": "EBGaramond-Regular",
+        "cpl": 25,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            70,
+            1175,
+            845,
+            450
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert icons",
+        "collumn": "tags",
+        "pos": [
+            812,
+            63,
+            125,
+            125
+        ],
+        "displacement": [
+            -1,
+            0
+        ],
+        "offset": 15
+    },
+    {
+        "type": "insert label",
+        "pos": [
+            60,
+            63,
+            125,
+            125
+        ]
+    }
+]
