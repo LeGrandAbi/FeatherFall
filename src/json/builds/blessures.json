@@ -3,13 +3,27 @@
         "type": "insert image",
         "collumn": "illustration",
         "pos": [
-            50,
-            235,
-            600 ,
-            450
+            170,
+            420,
+            750,
+            680
         ],
         "specs": [
-            "fit"
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/blessures/_background.png",
+        "pos": [
+            170,
+            385,
+            750,
+            750
+        ],
+        "specs": [
+            "background"
         ]
     },
     {
@@ -24,10 +38,10 @@
             0
         ],
         "pos": [
-            50,
-            50,
-            600,
-            150
+            150,
+            85,
+            800,
+            335
         ],
         "specs": [
             "fit"
@@ -45,10 +59,10 @@
             0
         ],
         "pos": [
-            50,
-            725,
-            600,
-            350
+            120,
+            1245,
+            850,
+            390
         ],
         "specs": [
             "fit"
@@ -58,10 +72,10 @@
         "type": "insert icons",
         "collumn": "tags",
         "pos": [
-            550,
-            50,
-            100,
-            100
+            855,
+            1090,
+            120,
+            120
         ],
         "displacement": [
             -1,
@@ -72,10 +86,10 @@
     {
         "type": "insert label",
         "pos": [
-            50,
-            50,
-            100,
-            100
+            115,
+            1090,
+            120,
+            120
         ]
     }
 ]
