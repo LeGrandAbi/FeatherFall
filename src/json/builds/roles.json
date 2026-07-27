@@ -1,0 +1,101 @@
+[
+    {
+        "type": "insert image",
+        "collumn": "illustration",
+        "pos": [
+            170,
+            420,
+            750,
+            680
+        ],
+        "specs": [
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/roles/_background.png",
+        "pos": [
+            170,
+            385,
+            750,
+            750
+        ],
+        "specs": [
+            "background"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            150,
+            85,
+            800,
+            335
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "pouvoir",
+        "font": "EBGaramond-Regular",
+        "cpl": 25,
+        "color": [
+            30,
+            30,
+            50,
+            0
+        ],
+        "pos": [
+            140,
+            1065,
+            800,
+            250
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description",
+        "font": "EBGaramond-Regular",
+        "cpl": 25,
+        "color": [
+            255,
+            255,
+            100,
+            0
+        ],
+        "pos": [
+            140,
+            1355,
+            800,
+            275
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert label",
+        "pos": [
+            115,
+            908,
+            120,
+            120
+        ]
+    }
+]
