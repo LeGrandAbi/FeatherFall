@@ -201,5 +201,14 @@
             1,
             2
         ]
+    },
+    {
+        "name": "roles",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [
+            4,
+            4
+        ]
     }
 ]
