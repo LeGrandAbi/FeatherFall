@@ -210,5 +210,14 @@
             4,
             4
         ]
+    },
+    {
+        "name": "bestiaire",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [
+            4,
+            4
+        ]
     }
 ]

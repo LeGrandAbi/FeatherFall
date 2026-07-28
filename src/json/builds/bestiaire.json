@@ -1,0 +1,124 @@
+[
+    {
+        "type": "insert image",
+        "collumn": "illustration",
+        "pos": [
+            80,
+            80,
+            800,
+            750
+        ],
+        "specs": [
+            "fit",
+            "background"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "name",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            75,
+            840,
+            800,
+            200
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "lore",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            975,
+            630,
+            700,
+            700
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "dmg",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            975,
+            145,
+            300,
+            300
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "blessures",
+        "font": "AncientMedium",
+        "cpl": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            1395,
+            145,
+            300,
+            300
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert icons",
+        "collumn": "tags",
+        "pos": [
+            140,
+            1105,
+            220,
+            220
+        ],
+        "displacement": [
+            1,
+            0
+        ],
+        "offset": 15
+    },
+    {
+        "type": "insert label",
+        "pos": [
+            100,
+            100,
+            100,
+            100
+        ]
+    }
+]
