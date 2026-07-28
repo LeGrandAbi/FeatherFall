@@ -216,8 +216,8 @@
         "enabled": true,
         "type": "build",
         "dimensions": [
-            4,
-            4
+            1,
+            3
         ]
     }
 ]

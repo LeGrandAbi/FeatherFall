@@ -4,7 +4,7 @@
         "collumn": "illustration",
         "pos": [
             80,
-            80,
+            45,
             800,
             750
         ],
@@ -25,9 +25,9 @@
             0
         ],
         "pos": [
-            75,
-            840,
-            800,
+            65,
+            735,
+            820,
             200
         ],
         "specs": [
@@ -46,8 +46,8 @@
             0
         ],
         "pos": [
-            975,
-            630,
+            1860,
+            165,
             700,
             700
         ],
@@ -58,7 +58,7 @@
     {
         "type": "insert text",
         "collumn": "dmg",
-        "font": "AncientMedium",
+        "font": "Snorkad-Regular",
         "cpl": 50,
         "color": [
             0,
@@ -67,10 +67,10 @@
             0
         ],
         "pos": [
-            975,
-            145,
-            300,
-            300
+            964,
+            190,
+            340,
+            217
         ],
         "specs": [
             "fit"
@@ -79,19 +79,19 @@
     {
         "type": "insert text",
         "collumn": "blessures",
-        "font": "AncientMedium",
+        "font": "Snorkad-Regular",
         "cpl": 50,
         "color": [
-            0,
+            100,
             0,
             0,
             0
         ],
         "pos": [
-            1395,
-            145,
-            300,
-            300
+            1390,
+            190,
+            340,
+            217
         ],
         "specs": [
             "fit"
@@ -101,10 +101,10 @@
         "type": "insert icons",
         "collumn": "tags",
         "pos": [
-            140,
-            1105,
-            220,
-            220
+            950,
+            615,
+            250,
+            250
         ],
         "displacement": [
             1,
@@ -116,7 +116,7 @@
         "type": "insert label",
         "pos": [
             100,
-            100,
+            65,
             100,
             100
         ]
