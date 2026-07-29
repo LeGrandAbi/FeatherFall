@@ -207,8 +207,8 @@
         "enabled": true,
         "type": "build",
         "dimensions": [
-            4,
-            4
+            5,
+            2
         ]
     },
     {
