@@ -29,7 +29,7 @@
     {
         "type": "insert text",
         "collumn": "name",
-        "font": "AncientMedium",
+        "font": "Cardinal-Alternate",
         "cpl": 50,
         "color": [
             0,
@@ -51,7 +51,7 @@
         "type": "insert text",
         "collumn": "pouvoir",
         "font": "EBGaramond-Regular",
-        "cpl": 25,
+        "cpl": 35,
         "color": [
             30,
             30,
@@ -72,7 +72,7 @@
         "type": "insert text",
         "collumn": "description",
         "font": "EBGaramond-Regular",
-        "cpl": 25,
+        "cpl": 35,
         "color": [
             255,
             255,
