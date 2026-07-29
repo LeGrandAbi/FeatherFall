@@ -10,7 +10,7 @@
     {
         "type": "insert text",
         "collumn": "name",
-        "font": "EBGaramond-Bold",
+        "font": "Pauls Celtic Font 3",
         "cpl": 32,
         "color": [0, 0, 0, 0],
         "pos": [810, 100, 1435, 325],
