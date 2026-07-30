@@ -72,7 +72,7 @@
         "type": "insert text",
         "collumn": "description",
         "font": "EBGaramond-Regular",
-        "cpl": 35,
+        "cpl": 25,
         "color": [
             255,
             255,
