@@ -145,7 +145,7 @@ def insert_text(instruction, card, card_info):
         rect = pg.Rect(instruction["pos"])
         font_path = f"{s.PATH_FONTS}/{instruction["font"]}.ttf"
         try:
-            font = pg.font.Font(font_path, size=128)
+            font = pg.font.Font(font_path, size=256)
         except FileNotFoundError:
             lcu.print_error(f"Couldn't load font : \"{font_path}\"")
             font = pg.font.Font(size=128)
