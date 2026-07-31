@@ -9,6 +9,20 @@
             750
         ],
         "specs": [
+            "fill",
+            "background"
+        ]
+    },
+    {
+        "type": "insert static image",
+        "filepath": "src/images/illustrations/jeu_de_base/bestiaire/_background.png",
+        "pos": [
+            80,
+            45,
+            800,
+            750
+        ],
+        "specs": [
             "fit",
             "background"
         ]
