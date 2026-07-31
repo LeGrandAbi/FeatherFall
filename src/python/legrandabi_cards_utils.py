@@ -40,6 +40,18 @@ def fit_surf(surf, rect):
 	fitted_rect = surf_rect.fit(rect)
 	fitted_surf = pg.transform.scale(surf, (fitted_rect.width, fitted_rect.height))
 	return fitted_surf
+
+
+def fill_surf(surf, rect):
+	surf_rect = surf.get_rect()
+	rect_ratio = rect.width/rect.height
+	surf_rect_ratio = surf_rect.width/surf_rect.height
+	if rect_ratio > surf_rect_ratio:
+		scale_value = rect.w / surf_rect.w
+	else:
+		scale_value = rect.h / surf_rect.h
+	fitted_surf = pg.transform.scale_by(surf, scale_value)
+	return fitted_surf
 	
 
 def render_text(text, font, color, max_len=50):

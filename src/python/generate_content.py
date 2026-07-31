@@ -168,6 +168,8 @@ def apply_surf(surf, dest, instruction):
         match args[0]:
             case "fit" :
                 surf = lcu.fit_surf(surf, rect)
+            case "fill" :
+                surf = lcu.fill_surf(surf, rect)
             case "flip" :
                 flip_x = "horizontal" in args
                 flip_y = "vertical" in args
