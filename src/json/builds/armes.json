@@ -50,8 +50,8 @@
     },
     {
         "type": "insert text",
-        "collumn": "description",
-        "font": "EBGaramond-Regular",
+        "collumn": "dmg",
+        "font": "Snorkad-Regular",
         "cpl": 25,
         "color": [
             0,
@@ -60,10 +60,10 @@
             0
         ],
         "pos": [
-            70,
-            1175,
-            845,
-            450
+            150,
+            1225,
+            785,
+            400
         ],
         "specs": [
             "fit"
