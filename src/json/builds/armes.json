@@ -31,7 +31,7 @@
         "type": "insert text",
         "collumn": "name",
         "font": "AncientMedium",
-        "cpl": 50,
+        "cpl": 12,
         "color": [
             0,
             0,
@@ -50,9 +50,9 @@
     },
     {
         "type": "insert text",
-        "collumn": "dmg",
+        "collumn": "description",
         "font": "Snorkad-Regular",
-        "cpl": 25,
+        "cpl": 23,
         "color": [
             0,
             0,
@@ -60,10 +60,10 @@
             0
         ],
         "pos": [
-            150,
-            1225,
-            785,
-            400
+            80,
+            1200,
+            830,
+            390
         ],
         "specs": [
             "fit"
