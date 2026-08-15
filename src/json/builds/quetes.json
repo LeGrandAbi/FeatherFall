@@ -11,10 +11,10 @@
             0
         ],
         "pos": [
-            100,
-            100,
-            800,
-            132
+            115,
+            90,
+            820,
+            180
         ],
         "specs": [
             "fit"
@@ -22,9 +22,9 @@
     },
     {
         "type": "insert text",
-        "collumn": "prologue",
+        "collumn": "objectif_1",
         "font": "EBGaramond-Bold",
-        "cpl": 32,
+        "cpl": 48,
         "color": [
             0,
             0,
@@ -32,10 +32,10 @@
             0
         ],
         "pos": [
-            125,
-            300,
-            750,
-            265
+            450,
+            500,
+            485,
+            100
         ],
         "specs": [
             "fit"
@@ -43,9 +43,9 @@
     },
     {
         "type": "insert text",
-        "collumn": "1_objectif",
-        "font": "EBGaramond-Bold",
-        "cpl": 32,
+        "collumn": "description_1",
+        "font": "EBGaramond-Italic",
+        "cpl": 48,
         "color": [
             0,
             0,
@@ -53,83 +53,34 @@
             0
         ],
         "pos": [
-            100,
-            632,
-            375,
-            210
+            450,
+            360,
+            485,
+            140
         ],
         "specs": [
             "fit"
         ]
     },
     {
-        "type": "insert text",
-        "collumn": "1_description",
-        "font": "EBGaramond-Bold",
-        "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
+        "type": "insert image",
+        "collumn": "illustration_1",
         "pos": [
-            532,
-            632,
-            375,
-            210
+            84,
+            342,
+            280,
+            280
         ],
         "specs": [
-            "fit"
+            "fill",
+            "background"
         ]
     },
     {
         "type": "insert text",
-        "collumn": "2_objectif",
+        "collumn": "objectif_2",
         "font": "EBGaramond-Bold",
-        "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            100,
-            886,
-            375,
-            210
-        ],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "2_description",
-        "font": "EBGaramond-Bold",
-        "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            532,
-            886,
-            375,
-            210
-        ],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "3_objectif",
-        "font": "EBGaramond-Bold",
-        "cpl": 32,
+        "cpl": 48,
         "color": [
             0,
             0,
@@ -138,9 +89,9 @@
         ],
         "pos": [
             100,
-            1140,
-            375,
-            210
+            815,
+            485,
+            100
         ],
         "specs": [
             "fit"
@@ -148,30 +99,9 @@
     },
     {
         "type": "insert text",
-        "collumn": "3_description",
-        "font": "EBGaramond-Bold",
-        "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            532,
-            1140,
-            375,
-            210
-        ],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "2_objectif",
-        "font": "EBGaramond-Bold",
-        "cpl": 32,
+        "collumn": "description_2",
+        "font": "EBGaramond-Italic",
+        "cpl": 48,
         "color": [
             0,
             0,
@@ -180,19 +110,33 @@
         ],
         "pos": [
             100,
-            1394,
-            375,
-            210
+            675,
+            485,
+            140
         ],
         "specs": [
             "fit"
         ]
     },
     {
+        "type": "insert image",
+        "collumn": "illustration_2",
+        "pos": [
+            679,
+            655,
+            280,
+            280
+        ],
+        "specs": [
+            "fill",
+            "background"
+        ]
+    },
+    {
         "type": "insert text",
-        "collumn": "2_description",
+        "collumn": "objectif_3",
         "font": "EBGaramond-Bold",
-        "cpl": 32,
+        "cpl": 48,
         "color": [
             0,
             0,
@@ -200,20 +144,111 @@
             0
         ],
         "pos": [
-            532,
-            1394,
-            375,
-            210
+            450,
+            1125,
+            485,
+            100
         ],
         "specs": [
             "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_3",
+        "font": "EBGaramond-Italic",
+        "cpl": 48,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            450,
+            985,
+            485,
+            140
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert image",
+        "collumn": "illustration_3",
+        "pos": [
+            84,
+            967,
+            280,
+            280
+        ],
+        "specs": [
+            "fill",
+            "background"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "objectif_4",
+        "font": "EBGaramond-Bold",
+        "cpl": 48,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            1440,
+            485,
+            100
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_4",
+        "font": "EBGaramond-Italic",
+        "cpl": 48,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "pos": [
+            100,
+            1300,
+            485,
+            140
+        ],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert image",
+        "collumn": "illustration_4",
+        "pos": [
+            679,
+            1280,
+            280,
+            280
+        ],
+        "specs": [
+            "fill",
+            "background"
         ]
     },
     {
         "type": "insert label",
         "pos": [
-            50,
-            50,
+            20,
+            20,
             100,
             100
         ]
