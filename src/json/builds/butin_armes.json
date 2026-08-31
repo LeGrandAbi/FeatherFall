@@ -52,7 +52,7 @@
         "type": "insert text",
         "collumn": "dmg",
         "font": "Snorkad-Regular",
-        "cpl": 25,
+        "cpl": 23,
         "color": [
             0,
             0,
@@ -60,31 +60,10 @@
             0
         ],
         "pos": [
-            150,
-            1175,
-            785,
-            200
-        ],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "description",
-        "font": "EBGaramond-Regular",
-        "cpl": 35,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            85,
-            1375,
-            825,
-            250
+            80,
+            1200,
+            830,
+            390
         ],
         "specs": [
             "fit"
