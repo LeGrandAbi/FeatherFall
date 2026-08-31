@@ -13,8 +13,8 @@ class ImageViewer:
 		self.active = False
 
 		self.ptr = 0
-		self.collumns = 1
-		self.rows = 1
+		self.collumns = s.IMAGEVIEWER_START_COL
+		self.rows = s.IMAGEVIEWER_START_ROW
 
 		self.font = pg.font.Font(size=s.IMAGEVIEWER_HUD_FONT_SIZE)
 
