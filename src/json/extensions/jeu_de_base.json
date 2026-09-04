@@ -16,45 +16,18 @@
         "bg_color": [255,255,255]
     },
     {
-        "name": "evenements_plaine",
+        "name": "roles",
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
         "bg_color": [255,255,255]
     },
-    {
-        "name": "evenements_foret",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [5,2],
-        "margin": 50,
-        "bg_color": [255,255,255]
-    },
-    {
-        "name": "evenements_nuit",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [5,2],
-        "margin": 50,
-        "bg_color": [255,255,255]
-    },
-    {
-        "name": "evenements_village",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [5,2],
-        "margin": 50,
-        "bg_color": [255,255,255]
-    },
-    {
-        "name": "butins",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [5,2],
-        "margin": 50,
-        "bg_color": [255,255,255]
-    },
+
+
+
+
+
     {
         "name": "butin_armes",
         "enabled": true,
@@ -72,13 +45,18 @@
         "bg_color": [255,255,255]
     },
     {
-        "name": "consommables",
+        "name": "butins",
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
         "bg_color": [255,255,255]
     },
+
+
+
+
+
     {
         "name": "armes",
         "enabled": true,
@@ -96,13 +74,55 @@
         "bg_color": [255,255,255]
     },
     {
-        "name": "marqueurs",
+        "name": "consommables",
         "enabled": true,
         "type": "build",
-        "dimensions": [7,11],
-        "margin": 0,
-        "bg_color": [0,0,0]
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255]
     },
+
+
+
+
+
+    {
+        "name": "evenements_plaine",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255]
+    },
+    {
+        "name": "evenements_foret",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255]
+    },
+    {
+        "name": "evenements_village",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255]
+    },
+    {
+        "name": "evenements_nuit",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255]
+    },
+
+
+
+
+
     {
         "name": "quetes",
         "enabled": true,
@@ -119,6 +139,32 @@
         "margin": 25,
         "bg_color": [255,255,255]
     },
+
+
+
+
+
+    {
+        "name": "marqueurs",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [7,11],
+        "margin": 0,
+        "bg_color": [0,0,0]
+    },
+    {
+        "name": "devises",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [9,11],
+        "margin": 0,
+        "bg_color": [0,0,0]
+    },
+
+
+
+
+
     {
         "name": "tuiles",
         "enabled": true,
@@ -145,14 +191,6 @@
         ]
     },
     {
-        "name": "devises",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [9,11],
-        "margin": 0,
-        "bg_color": [0,0,0]
-    },
-    {
         "name": "bordures",
         "enabled": true,
         "type": "copy",
@@ -169,14 +207,6 @@
         ]
     },
     {
-        "name": "actions",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [2,2],
-        "margin": 0,
-        "bg_color": [0,0,0]
-    },
-    {
         "name": "villages",
         "enabled": true,
         "type": "build",
@@ -184,14 +214,11 @@
         "margin": 0,
         "bg_color": [0,0,0]
     },
-    {
-        "name": "roles",
-        "enabled": true,
-        "type": "build",
-        "dimensions": [5,2],
-        "margin": 50,
-        "bg_color": [255,255,255]
-    },
+
+
+
+
+    
     {
         "name": "bestiaire",
         "enabled": true,
