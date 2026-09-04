@@ -4,8 +4,8 @@ class Settings:
 	def __init__(self):
 		self.VERBOSE = True
 
-		self.SAVE_CARDS = True
-		self.VIEW_CARDS = False
+		self.SAVE_CARDS = False
+		self.VIEW_CARDS = True
 		self.MAKE_PRINTABLES = False
 
 		self.PATH_BASES = "src/images/bases"
