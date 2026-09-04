@@ -29,7 +29,9 @@ for extension in extensions:
 					lcu.view_images(cards, category_name)
 				if s.MAKE_PRINTABLES:
 					dimensions = category["dimensions"]
-					gc.build_printables(cards, extension, category_name, dimensions)
+					margin = category["margin"]
+					bg_color = category["bg_color"]
+					gc.build_printables(cards, extension, category_name, dimensions, margin, bg_color)
 			elif type == "copy":
 				filenames = category["filenames"]
 				gc.copy_content(extension, category_name, filenames)

@@ -41,7 +41,7 @@ def build_cards(extension, category):
     return cards
 
 
-def build_printables(cards, extension, category, dimensions):
+def build_printables(cards, extension, category, dimensions, margin, bg_color):
     lcu.print_title(f"BUILDING {extension.upper()} {category.upper()} PRINTABLES")
 
     lcu.empty_directory(f"{s.PATH_PRINTABLES}/{extension}/{category}")
@@ -68,7 +68,8 @@ def build_printables(cards, extension, category, dimensions):
 
     dim_x, dim_y = dimensions
     width, height = stack[0].get_size()
-    printable_size = (width*dimensions[0], height*dimensions[1])
+    print_width = dim_x * (width + 2*margin)
+    print_height = dim_y * (height + 2*margin)
 
     i = 1
     j = 0
@@ -78,14 +79,16 @@ def build_printables(cards, extension, category, dimensions):
         name = f"{category}_{i}"
         lcu.print_separator()
         lcu.print_info(f"[{i}/{n}] Building printable : {name}")
-        printable = pg.Surface(printable_size)
+        printable = pg.Surface((print_width, print_height))
+        printable.fill(bg_color)
         for y in range(dim_y):
             for x in range(dim_x):
                 if stack != []:
                     lcu.print_info(f"[{j+1}/{l}] Adding card to printable")
                     card = stack.pop(0)
-                    pos = (x*width, y*height)
-                    printable.blit(card ,pos)
+                    pos_x = margin + x*(width + 2*margin)
+                    pos_y = margin + y*(height + 2*margin)
+                    printable.blit(card, (pos_x, pos_y))
                     j = j + 1
         printables[name] = printable
         filepath = f"{s.PATH_PRINTABLES}/{extension}/{category}/{name}.png"
