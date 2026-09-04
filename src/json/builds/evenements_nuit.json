@@ -4,18 +4,8 @@
         "collumn": "effet",
         "font": "EBGaramond-Bold",
         "cpl": 30,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            90,
-            670,
-            810,
-            450
-        ],
+        "color": [0,0,0,0],
+        "pos": [90,670,810,450],
         "specs": [
             "fit"
         ]
@@ -25,18 +15,8 @@
         "collumn": "description",
         "font": "EBGaramond-Regular",
         "cpl": 35,
-        "color": [
-            200,
-            200,
-            200,
-            0
-        ],
-        "pos": [
-            140,
-            1165,
-            720,
-            390
-        ],
+        "color": [200,200,200,0],
+        "pos": [140,1165,720,390],
         "specs": [
             "fit"
         ]
@@ -44,12 +24,7 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [
-            50,
-            50,
-            890,
-            650
-        ],
+        "pos": [50,50,890,650],
         "specs": [
             "fit",
             "background"
@@ -58,12 +33,7 @@
     {
         "type": "insert static image",
         "filepath": "src/images/illustrations/jeu_de_base/evenements_nuit/background.png",
-        "pos": [
-            50,
-            50,
-            890,
-            650
-        ],
+        "pos": [50,50,890,650],
         "specs": [
             "fit",
             "background"
@@ -71,11 +41,6 @@
     },
     {
         "type": "insert label",
-        "pos": [
-            50,
-            50,
-            100,
-            100
-        ]
+        "pos": [50,50,100,100]
     }
 ]

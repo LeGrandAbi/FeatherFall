@@ -2,12 +2,7 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [
-            0,
-            0,
-            460,
-            460
-        ],
+        "pos": [0,0,460,460],
         "specs": [
             "fit"
         ]

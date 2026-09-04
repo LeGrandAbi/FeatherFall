@@ -2,12 +2,7 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [
-            80,
-            45,
-            800,
-            750
-        ],
+        "pos": [80,45,800,750],
         "specs": [
             "fill",
             "background"
@@ -16,12 +11,7 @@
     {
         "type": "insert static image",
         "filepath": "src/images/illustrations/jeu_de_base/bestiaire/_background.png",
-        "pos": [
-            80,
-            45,
-            800,
-            750
-        ],
+        "pos": [80,45,800,750],
         "specs": [
             "fit",
             "background"
@@ -32,18 +22,8 @@
         "collumn": "name",
         "font": "Cardinal-Alternate",
         "cpl": 50,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            65,
-            735,
-            820,
-            200
-        ],
+        "color": [0,0,0,0],
+        "pos": [65,735,820,200],
         "specs": [
             "fit"
         ]
@@ -53,18 +33,8 @@
         "collumn": "lore",
         "font": "EBGaramond-Italic",
         "cpl": 30,
-        "color": [
-            30,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            1860,
-            165,
-            700,
-            700
-        ],
+        "color": [30,0,0,0],
+        "pos": [1860,165,700,700],
         "specs": [
             "fit",
             "opacity 200",
@@ -76,18 +46,8 @@
         "collumn": "dmg",
         "font": "Snorkad-Regular",
         "cpl": 50,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            964,
-            210,
-            340,
-            177
-        ],
+        "color": [0,0,0,0],
+        "pos": [964,210,340,177],
         "specs": [
             "fit"
         ]
@@ -97,18 +57,8 @@
         "collumn": "blessures",
         "font": "Snorkad-Regular",
         "cpl": 50,
-        "color": [
-            100,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            1390,
-            210,
-            340,
-            177
-        ],
+        "color": [100,0,0,0],
+        "pos": [1390,210,340,177],
         "specs": [
             "fit"
         ]
@@ -116,16 +66,8 @@
     {
         "type": "insert icons",
         "collumn": "tags",
-        "pos": [
-            950,
-            660,
-            250,
-            250
-        ],
-        "displacement": [
-            1,
-            0
-        ],
+        "pos": [950,660,250,250],
+        "displacement": [1,0],
         "offset": 15
     },
     {
@@ -133,18 +75,8 @@
         "collumn": "tags",
         "font": "BlackFlag",
         "cpl": 50,
-        "color": [
-            0,
-            0,
-            20,
-            0
-        ],
-        "pos": [
-            910,
-            565,
-            830,
-            100
-        ],
+        "color": [0,0,20,0],
+        "pos": [910,565,830,100],
         "specs": [
             "fit",
             "opacity 125"
@@ -152,11 +84,6 @@
     },
     {
         "type": "insert label",
-        "pos": [
-            100,
-            65,
-            100,
-            100
-        ]
+        "pos": [100,65,100,100]
     }
 ]

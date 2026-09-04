@@ -4,18 +4,8 @@
         "collumn": "name",
         "font": "EBGaramond-Bold",
         "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            115,
-            90,
-            820,
-            180
-        ],
+        "color": [0,0,0,0],
+        "pos": [115,90,820,180],
         "specs": [
             "fit"
         ]
@@ -25,18 +15,8 @@
         "collumn": "objectif_1",
         "font": "EBGaramond-Bold",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            450,
-            500,
-            485,
-            100
-        ],
+        "color": [0,0,0,0],
+        "pos": [450,500,485,100],
         "specs": [
             "fit"
         ]
@@ -46,18 +26,8 @@
         "collumn": "description_1",
         "font": "EBGaramond-Italic",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            450,
-            360,
-            485,
-            140
-        ],
+        "color": [0,0,0,0],
+        "pos": [450,360,485,140],
         "specs": [
             "fit"
         ]
@@ -65,12 +35,7 @@
     {
         "type": "insert image",
         "collumn": "illustration_1",
-        "pos": [
-            84,
-            342,
-            280,
-            280
-        ],
+        "pos": [84,342,280,280],
         "specs": [
             "fill",
             "background"
@@ -81,18 +46,8 @@
         "collumn": "objectif_2",
         "font": "EBGaramond-Bold",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            100,
-            815,
-            485,
-            100
-        ],
+        "color": [0,0,0,0],
+        "pos": [100,815,485,100],
         "specs": [
             "fit"
         ]
@@ -102,18 +57,8 @@
         "collumn": "description_2",
         "font": "EBGaramond-Italic",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            100,
-            675,
-            485,
-            140
-        ],
+        "color": [0,0,0,0],
+        "pos": [100,675,485,140],
         "specs": [
             "fit"
         ]
@@ -121,12 +66,7 @@
     {
         "type": "insert image",
         "collumn": "illustration_2",
-        "pos": [
-            679,
-            655,
-            280,
-            280
-        ],
+        "pos": [679,655,280,280],
         "specs": [
             "fill",
             "background"
@@ -137,18 +77,8 @@
         "collumn": "objectif_3",
         "font": "EBGaramond-Bold",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            450,
-            1125,
-            485,
-            100
-        ],
+        "color": [0,0,0,0],
+        "pos": [450,1125,485,100],
         "specs": [
             "fit"
         ]
@@ -158,18 +88,8 @@
         "collumn": "description_3",
         "font": "EBGaramond-Italic",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            450,
-            985,
-            485,
-            140
-        ],
+        "color": [0,0,0,0],
+        "pos": [450,985,485,140],
         "specs": [
             "fit"
         ]
@@ -177,12 +97,7 @@
     {
         "type": "insert image",
         "collumn": "illustration_3",
-        "pos": [
-            84,
-            967,
-            280,
-            280
-        ],
+        "pos": [84,967,280,280],
         "specs": [
             "fill",
             "background"
@@ -193,18 +108,8 @@
         "collumn": "objectif_4",
         "font": "EBGaramond-Bold",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            100,
-            1440,
-            485,
-            100
-        ],
+        "color": [0,0,0,0],
+        "pos": [100,1440,485,100],
         "specs": [
             "fit"
         ]
@@ -214,18 +119,8 @@
         "collumn": "description_4",
         "font": "EBGaramond-Italic",
         "cpl": 48,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            100,
-            1300,
-            485,
-            140
-        ],
+        "color": [0,0,0,0],
+        "pos": [100,1300,485,140],
         "specs": [
             "fit"
         ]
@@ -233,12 +128,7 @@
     {
         "type": "insert image",
         "collumn": "illustration_4",
-        "pos": [
-            679,
-            1280,
-            280,
-            280
-        ],
+        "pos": [679,1280,280,280],
         "specs": [
             "fill",
             "background"
@@ -246,11 +136,6 @@
     },
     {
         "type": "insert label",
-        "pos": [
-            20,
-            20,
-            100,
-            100
-        ]
+        "pos": [20,20,100,100]
     }
 ]

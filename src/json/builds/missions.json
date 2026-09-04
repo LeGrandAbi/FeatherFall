@@ -4,18 +4,9 @@
         "collumn": "description",
         "font": "EBGaramond-Italic",
         "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            150,
-            1070,
-            750,
-            500
-        ],        "specs": [
+        "color": [0,0,0,0],
+        "pos": [150,1070,750,500],
+        "specs": [
             "fit"
         ]
     },
@@ -24,18 +15,8 @@
         "collumn": "objectif",
         "font": "EBGaramond-Bold",
         "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            150,
-            570,
-            750,
-            500
-        ],
+        "color": [0,0,0,0],
+        "pos": [150,570,750,500],
         "specs": [
             "fit"
         ]
@@ -45,18 +26,8 @@
         "collumn": "recompense",
         "font": "EBGaramond-Bold",
         "cpl": 32,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            385,
-            75,
-            400,
-            400
-        ],
+        "color": [0,0,0,0],
+        "pos": [385,75,400,400],
         "specs": [
             "fit",
             "opacity 85"
@@ -64,12 +35,7 @@
     },
     {
         "type": "insert label",
-        "pos": [
-            70,
-            70,
-            120,
-            120
-        ]
+        "pos": [70,70,120,120]
     }
 
 ]

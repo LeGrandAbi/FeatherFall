@@ -2,12 +2,7 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [
-            170,
-            420,
-            750,
-            680
-        ],
+        "pos": [170,420,750,680],
         "specs": [
             "fit",
             "background"
@@ -16,12 +11,7 @@
     {
         "type": "insert static image",
         "filepath": "src/images/illustrations/jeu_de_base/blessures/_background.png",
-        "pos": [
-            170,
-            385,
-            750,
-            750
-        ],
+        "pos": [170,385,750,750],
         "specs": [
             "background"
         ]
@@ -31,18 +21,8 @@
         "collumn": "name",
         "font": "AncientMedium",
         "cpl": 50,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            150,
-            85,
-            800,
-            335
-        ],
+        "color": [0,0,0,0],
+        "pos": [150,85,800,335],
         "specs": [
             "fit"
         ]
@@ -52,18 +32,8 @@
         "collumn": "description",
         "font": "EBGaramond-Regular",
         "cpl": 25,
-        "color": [
-            30,
-            30,
-            50,
-            0
-        ],
-        "pos": [
-            120,
-            1245,
-            850,
-            390
-        ],
+        "color": [30,30,50,0],
+        "pos": [120,1245,850,390],
         "specs": [
             "fit"
         ]
@@ -71,25 +41,12 @@
     {
         "type": "insert icons",
         "collumn": "tags",
-        "pos": [
-            855,
-            1090,
-            120,
-            120
-        ],
-        "displacement": [
-            -1,
-            0
-        ],
+        "pos": [855,1090,120,120],
+        "displacement": [-1,0],
         "offset": 15
     },
     {
         "type": "insert label",
-        "pos": [
-            115,
-            1090,
-            120,
-            120
-        ]
+        "pos": [115,1090,120,120]
     }
 ]

@@ -2,12 +2,7 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [
-            63,
-            218,
-            873,
-            550
-        ],
+        "pos": [63,218,873,550],
         "specs": [
             "fit",
             "background"
@@ -16,12 +11,7 @@
     {
         "type": "insert static image",
         "filepath": "src/images/illustrations/jeu_de_base/babioles/_background.png",
-        "pos": [
-            48,
-            122,
-            910,
-            780
-        ],
+        "pos": [48,122,910,780],
         "specs": [
             "fit",
             "background"
@@ -32,18 +22,8 @@
         "collumn": "name",
         "font": "AncientMedium",
         "cpl": 50,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            100,
-            790,
-            800,
-            275
-        ],
+        "color": [0,0,0,0],
+        "pos": [100,790,800,275],
         "specs": [
             "fit"
         ]
@@ -53,18 +33,8 @@
         "collumn": "description",
         "font": "EBGaramond-Regular",
         "cpl": 25,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "pos": [
-            70,
-            1175,
-            845,
-            450
-        ],
+        "color": [0,0,0,0],
+        "pos": [70,1175,845,450],
         "specs": [
             "fit"
         ]
@@ -72,25 +42,12 @@
     {
         "type": "insert icons",
         "collumn": "tags",
-        "pos": [
-            812,
-            63,
-            125,
-            125
-        ],
-        "displacement": [
-            -1,
-            0
-        ],
+        "pos": [812,63,125,125],
+        "displacement": [-1,0],
         "offset": 15
     },
     {
         "type": "insert label",
-        "pos": [
-            60,
-            63,
-            125,
-            125
-        ]
+        "pos": [60,63,125,125]
     }
 ]
