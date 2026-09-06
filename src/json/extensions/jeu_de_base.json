@@ -213,15 +213,6 @@
         ]
     },
     {
-        "name": "guide",
-        "enabled": true,
-        "type": "copy",
-        "filenames": [
-            "guide_front.png",
-            "guide_back.png"
-        ]
-    },
-    {
         "name": "bordures",
         "enabled": true,
         "type": "copy",
@@ -237,6 +228,28 @@
             "all"
         ]
     },
+
+
+
+
+
+    {
+        "name": "guide",
+        "enabled": true,
+        "type": "copy",
+        "filenames": [
+            "guide_front.png",
+            "guide_back.png"
+        ]
+    },
+    {
+        "name": "actions",
+        "enabled": true,
+        "type": "copy",
+        "filenames": [
+            "actions.png"
+        ]
+    },
     {
         "name": "villages",
         "enabled": true,
@@ -246,11 +259,6 @@
         "bg_color": [0,0,0],
         "shuffle": false
     },
-
-
-
-
-    
     {
         "name": "bestiaire",
         "enabled": true,

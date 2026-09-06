@@ -1,0 +1,22 @@
+Dans un village, interragir avec le batiment dans lequel la troupe se trouve
+
+Utiliser un de vos objets ou une de vos competences
+
+organiser l'inventaire commun
+
+fouiller: 4/20 chances de recuperer 1 objet le jour, 2/20 chances la nuit.
+
+prier: 2/20 chances de recuperer 1 volonte, 4/20 chances en reunion.
+
+se reposer: 1/20 chances de guerir une blessure, 3/20 chances en reunion.
+
+participer a un combat:
+	se battre:
+		faites strictement plus de degat que le camp adverse
+	dialoguer:
+		1/20 chances de gagner le combat
+
+engager un combat contre un autre membre de la troupe:
+	Le gagnant choisit de soit voler 1 carte parmis l'inventaire du perdant, soit que tout les perdants ai 20/20 chances de subir 1 blessure.
+	Les autres membres de la troupe peuvent rejoindre ou non le parti de leur choix.
+	Dialoguer ne fonctionne pas.
