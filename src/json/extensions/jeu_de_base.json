@@ -1,5 +1,19 @@
 [
     {
+        "name": "back",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 0,
+        "bg_color": [255,255,255],
+        "shuffle": false
+    },
+
+
+
+
+
+    {
         "name": "competences",
         "enabled": true,
         "type": "build",
