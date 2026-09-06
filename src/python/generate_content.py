@@ -190,6 +190,27 @@ def apply_surf(surf, dest, instruction):
                 pass
             case "grayscale" :
                 surf = pg.transform.grayscale(surf)
+            case "colorize" :
+                operation = args[1]
+                color = pg.Color(int(args[2]), int(args[4]), int(args[3]))
+                mask = pg.mask.from_surface(surf)
+                color_surf = mask.to_surface()
+                color_surf.fill(color)
+                match operation:
+                    case "fill":
+                        surf.blit(color_surf, (0,0))
+                    case "add":
+                        surf.blit(color_surf, (0,0), special_flags=pg.BLEND_ADD)
+                    case "sub":
+                        surf.blit(color_surf, (0,0), special_flags=pg.BLEND_SUB)
+                    case "mult":
+                        surf.blit(color_surf, (0,0), special_flags=pg.BLEND_MULT)
+                    case "min":
+                        surf.blit(color_surf, (0,0), special_flags=pg.BLEND_MIN)
+                    case "max":
+                        surf.blit(color_surf, (0,0), special_flags=pg.BLEND_MAX)
+                    case _ :
+                        lcu.print_error(f"Incorrect colorize argument : \"{operation}\"")
             case _ :
                 lcu.print_error(f"Incorrect specs argument : \"{args[0]}\"")
     if "background" in specs:
