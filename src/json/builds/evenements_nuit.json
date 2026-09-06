@@ -28,7 +28,8 @@
         "specs": [
             "fit",
             "background",
-            "grayscale"
+            "grayscale",
+            "colorize sub 50 50 50"
         ]
     },
     {
