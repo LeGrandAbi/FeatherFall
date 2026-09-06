@@ -188,6 +188,8 @@ def apply_surf(surf, dest, instruction):
             case "background":
                 # the background argument is a blit operation and is therefor treated later
                 pass
+            case "grayscale" :
+                surf = pg.transform.grayscale(surf)
             case _ :
                 lcu.print_error(f"Incorrect specs argument : \"{args[0]}\"")
     if "background" in specs:

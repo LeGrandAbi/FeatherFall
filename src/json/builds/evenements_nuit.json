@@ -27,7 +27,8 @@
         "pos": [50,50,890,650],
         "specs": [
             "fit",
-            "background"
+            "background",
+            "grayscale"
         ]
     },
     {
