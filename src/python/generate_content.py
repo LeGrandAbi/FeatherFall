@@ -41,7 +41,7 @@ def build_cards(extension, category):
     return cards
 
 
-def build_printables(cards, extension, category, dimensions, margin, bg_color):
+def build_printables(cards, extension, category, dimensions, margin, bg_color, do_shuffle):
     lcu.print_title(f"BUILDING {extension.upper()} {category.upper()} PRINTABLES")
 
     lcu.empty_directory(f"{s.PATH_PRINTABLES}/{extension}/{category}")
@@ -64,7 +64,9 @@ def build_printables(cards, extension, category, dimensions, margin, bg_color):
         for j in range(n):
             stack.append(image)
         i = i + 1
-    lcu.shuffle(stack)
+
+    if do_shuffle:
+        lcu.shuffle(stack)
 
     dim_x, dim_y = dimensions
     width, height = stack[0].get_size()

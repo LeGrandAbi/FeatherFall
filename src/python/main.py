@@ -31,7 +31,8 @@ for extension in extensions:
 					dimensions = category["dimensions"]
 					margin = category["margin"]
 					bg_color = category["bg_color"]
-					gc.build_printables(cards, extension, category_name, dimensions, margin, bg_color)
+					shuffle = category["shuffle"]
+					gc.build_printables(cards, extension, category_name, dimensions, margin, bg_color, shuffle)
 			elif type == "copy":
 				filenames = category["filenames"]
 				gc.copy_content(extension, category_name, filenames)

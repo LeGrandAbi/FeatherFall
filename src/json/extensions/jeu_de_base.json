@@ -5,7 +5,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "blessures",
@@ -13,7 +14,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "roles",
@@ -21,7 +23,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
 
 
@@ -34,7 +37,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "butin_babioles",
@@ -42,7 +46,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "butins",
@@ -50,7 +55,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
 
 
@@ -63,7 +69,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "babioles",
@@ -71,7 +78,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "consommables",
@@ -79,7 +87,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
 
 
@@ -92,7 +101,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "evenements_foret",
@@ -100,7 +110,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "evenements_village",
@@ -108,7 +119,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
     {
         "name": "evenements_nuit",
@@ -116,7 +128,8 @@
         "type": "build",
         "dimensions": [5,2],
         "margin": 50,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
 
 
@@ -129,7 +142,8 @@
         "type": "build",
         "dimensions": [2,1],
         "margin": 0,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": false
     },
     {
         "name": "missions",
@@ -137,7 +151,8 @@
         "type": "build",
         "dimensions": [2,5],
         "margin": 25,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": true
     },
 
 
@@ -150,7 +165,8 @@
         "type": "build",
         "dimensions": [7,11],
         "margin": 0,
-        "bg_color": [0,0,0]
+        "bg_color": [0,0,0],
+        "shuffle": true
     },
     {
         "name": "devises",
@@ -158,7 +174,8 @@
         "type": "build",
         "dimensions": [9,11],
         "margin": 0,
-        "bg_color": [0,0,0]
+        "bg_color": [0,0,0],
+        "shuffle": true
     },
 
 
@@ -212,7 +229,8 @@
         "type": "build",
         "dimensions": [1,2],
         "margin": 0,
-        "bg_color": [0,0,0]
+        "bg_color": [0,0,0],
+        "shuffle": false
     },
 
 
@@ -225,6 +243,7 @@
         "type": "build",
         "dimensions": [1,4],
         "margin": 0,
-        "bg_color": [255,255,255]
+        "bg_color": [255,255,255],
+        "shuffle": false
     }
 ]
