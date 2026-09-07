@@ -4,6 +4,8 @@ from settings import s
 
 class ImageViewer:
 	def __init__(self, images_dict, title):
+		self.clock = pg.time.Clock()
+
 		self.title = title
 		self.names = [key for key in images_dict.keys()]
 		self.images = [value for value in images_dict.values()]
@@ -26,6 +28,7 @@ class ImageViewer:
 		while self.active:
 			self.handle_events()
 			self.update_display()
+			self.clock.tick(s.IMAGEVIEWER_MAXFPS)
 
 
 	def update_display(self):
