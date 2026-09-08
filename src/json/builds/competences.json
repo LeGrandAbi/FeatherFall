@@ -20,7 +20,7 @@
         "type": "insert text",
         "collumn": "name",
         "font": "AncientMedium",
-        "cpl": 50,
+        "cpl": 18,
         "color": [0,0,0,0],
         "pos": [150,85,800,335],
         "specs": [
@@ -31,7 +31,7 @@
         "type": "insert text",
         "collumn": "description",
         "font": "EBGaramond-Regular",
-        "cpl": 25,
+        "cpl": 35,
         "color": [30,30,50,0],
         "pos": [120,1245,850,390],
         "specs": [
