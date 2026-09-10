@@ -14,9 +14,9 @@
         "type": "insert text",
         "collumn": "objectif_1",
         "font": "EBGaramond-Bold",
-        "cpl": 48,
+        "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [450,500,485,100],
+        "pos": [450,450,485,150],
         "specs": [
             "fit"
         ]
@@ -27,7 +27,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [450,360,485,140],
+        "pos": [450,360,485,100],
         "specs": [
             "fit"
         ]
@@ -45,9 +45,9 @@
         "type": "insert text",
         "collumn": "objectif_2",
         "font": "EBGaramond-Bold",
-        "cpl": 48,
+        "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [100,815,485,100],
+        "pos": [100,765,485,150],
         "specs": [
             "fit"
         ]
@@ -58,7 +58,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [100,675,485,140],
+        "pos": [100,675,485,100],
         "specs": [
             "fit"
         ]
@@ -76,9 +76,9 @@
         "type": "insert text",
         "collumn": "objectif_3",
         "font": "EBGaramond-Bold",
-        "cpl": 48,
+        "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [450,1125,485,100],
+        "pos": [450,1075,485,150],
         "specs": [
             "fit"
         ]
@@ -89,7 +89,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [450,985,485,140],
+        "pos": [450,985,485,100],
         "specs": [
             "fit"
         ]
@@ -107,9 +107,9 @@
         "type": "insert text",
         "collumn": "objectif_4",
         "font": "EBGaramond-Bold",
-        "cpl": 48,
+        "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [100,1440,485,100],
+        "pos": [100,1390,485,150],
         "specs": [
             "fit"
         ]
@@ -120,7 +120,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [100,1300,485,140],
+        "pos": [100,1300,485,100],
         "specs": [
             "fit"
         ]
