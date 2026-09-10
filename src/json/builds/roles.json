@@ -20,7 +20,7 @@
         "type": "insert text",
         "collumn": "name",
         "font": "Cardinal-Alternate",
-        "cpl": 50,
+        "cpl": 15,
         "color": [0,0,0,0],
         "pos": [150,85,800,335],
         "specs": [
@@ -30,7 +30,7 @@
     {
         "type": "insert text",
         "collumn": "pouvoir",
-        "font": "EBGaramond-Regular",
+        "font": "EBGaramond-Bold",
         "cpl": 35,
         "color": [30,30,50,0],
         "pos": [140,1065,800,250],
