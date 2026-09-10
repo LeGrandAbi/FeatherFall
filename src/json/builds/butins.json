@@ -21,7 +21,7 @@
         "type": "insert text",
         "collumn": "name",
         "font": "AncientMedium",
-        "cpl": 50,
+        "cpl": 15,
         "color": [0,0,0,0],
         "pos": [100,790,800,275],
         "specs": [
