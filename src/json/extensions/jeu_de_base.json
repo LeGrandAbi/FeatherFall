@@ -197,13 +197,37 @@
 
 
     {
-        "name": "tuiles",
+        "name": "tuiles_1x1",
         "enabled": true,
-        "type": "copy",
-        "filenames": [
-            "all"
-        ]
+        "type": "build",
+        "dimensions": [4,8],
+        "margin": 0,
+        "bg_color": [0,0,0],
+        "shuffle": true
     },
+    {
+        "name": "tuiles_2x1",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [2,8],
+        "margin": 0,
+        "bg_color": [0,0,0],
+        "shuffle": true
+    },
+    {
+        "name": "tuiles_2x2",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [2,4],
+        "margin": 0,
+        "bg_color": [0,0,0],
+        "shuffle": true
+    },
+
+
+
+
+
     {
         "name": "temps",
         "enabled": true,
