@@ -228,11 +228,6 @@
             "all"
         ]
     },
-
-
-
-
-
     {
         "name": "guide",
         "enabled": true,
@@ -250,6 +245,19 @@
             "actions.png"
         ]
     },
+    {
+        "name": "scoreboard",
+        "enabled": true,
+        "type": "copy",
+        "filenames": [
+            "scoreboard.png"
+        ]
+    },
+
+
+
+
+
     {
         "name": "villages",
         "enabled": true,
