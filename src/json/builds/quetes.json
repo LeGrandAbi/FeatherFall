@@ -16,7 +16,7 @@
         "font": "EBGaramond-Bold",
         "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [450,450,485,150],
+        "pos": [475,450,460,150],
         "specs": [
             "fit"
         ]
@@ -27,7 +27,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [450,360,485,100],
+        "pos": [475,360,460,100],
         "specs": [
             "fit"
         ]
@@ -47,7 +47,7 @@
         "font": "EBGaramond-Bold",
         "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [100,765,485,150],
+        "pos": [100,765,460,150],
         "specs": [
             "fit"
         ]
@@ -58,7 +58,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [100,675,485,100],
+        "pos": [100,675,460,100],
         "specs": [
             "fit"
         ]
@@ -78,7 +78,7 @@
         "font": "EBGaramond-Bold",
         "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [450,1075,485,150],
+        "pos": [475,1075,460,150],
         "specs": [
             "fit"
         ]
@@ -89,7 +89,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [450,985,485,100],
+        "pos": [475,985,460,100],
         "specs": [
             "fit"
         ]
@@ -109,7 +109,7 @@
         "font": "EBGaramond-Bold",
         "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [100,1390,485,150],
+        "pos": [100,1390,460,150],
         "specs": [
             "fit"
         ]
@@ -120,7 +120,7 @@
         "font": "EBGaramond-Italic",
         "cpl": 48,
         "color": [0,0,0,0],
-        "pos": [100,1300,485,100],
+        "pos": [100,1300,460,100],
         "specs": [
             "fit"
         ]
