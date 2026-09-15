@@ -3,9 +3,9 @@
         "type": "insert text",
         "collumn": "description",
         "font": "EBGaramond-Italic",
-        "cpl": 45,
+        "cpl": 36,
         "color": [0,0,0,0],
-        "pos": [510,125,990,350],
+        "pos": [525,125,975,350],
         "specs": [
             "fit"
         ]
