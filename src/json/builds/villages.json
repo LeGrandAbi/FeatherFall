@@ -1,19 +1,11 @@
 [
     {
-        "type": "insert image",
-        "collumn": "illustration",
-        "pos": [0, 500, 3000, 2000],
-        "specs": [
-            "background"
-        ]
-    },
-    {
         "type": "insert text",
         "collumn": "name",
         "font": "Pauls Celtic Font 3",
         "cpl": 32,
         "color": [50, 0, 0, 0],
-        "pos": [810, 100, 1435, 325],
+        "pos": [250, 35, 1000, 200],
         "specs": [
             "fit",
             "opacity 200"
@@ -27,78 +19,56 @@
     {
         "type": "insert image",
         "collumn": "illustration_a",
-        "pos": [500, 550, 1000, 1000],
+        "pos": [200, 220, 350, 350],
         "specs": [
             "fit"
         ]
     },
-    {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
-        "pos": [150, 550, 1100, 900],
-        "specs": [
-            "opacity 200"
-        ]
-    },
-    {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
-        "pos": [150, 500, 1100, 500],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "name_a",
-        "font": "Seagram tfb",
-        "cpl": 32,
-        "color": [50, 0, 0, 0],
-        "pos": [250, 645, 935, 185],
-        "specs": [
-            "fit",
-            "opacity 150"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "description_a",
-        "font": "EBGaramond-Bold",
-        "cpl": 40,
-        "color": [0, 0, 0, 0],
-        "pos": [225, 825, 950, 415],
-        "specs": [
-            "fit"
-        ]
-    },
-
-
-
-
-
     {
         "type": "insert image",
         "collumn": "illustration_b",
-        "pos": [1500, 550, 1000, 1000],
+        "pos": [950, 520, 350, 350],
         "specs": [
             "fit",
             "flip horizontal"
         ]
     },
     {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
-        "pos": [1750, 550, 1100, 900],
+        "type": "insert image",
+        "collumn": "illustration_c",
+        "pos": [200, 805, 350, 350],
         "specs": [
-            "opacity 200"
+            "fit"
         ]
     },
     {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
-        "pos": [1750, 500, 1100, 500],
+        "type": "insert image",
+        "collumn": "illustration_d",
+        "pos": [950, 1100, 350, 350],
         "specs": [
-            "fit"
+            "fit",
+            "flip horizontal"
+        ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "type": "insert text",
+        "collumn": "name_a",
+        "font": "Seagram tfb",
+        "cpl": 32,
+        "color": [50, 0, 0, 0],
+        "pos": [550, 275, 700, 100],
+        "specs": [
+            "fit",
+            "opacity 150"
         ]
     },
     {
@@ -107,50 +77,10 @@
         "font": "Seagram tfb",
         "cpl": 32,
         "color": [50, 0, 0, 0],
-        "pos": [1850, 645, 935, 185],
+        "pos": [250, 575, 700, 100],
         "specs": [
             "fit",
             "opacity 150"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "description_b",
-        "font": "EBGaramond-Bold",
-        "cpl": 40,
-        "color": [0, 0, 0, 0],
-        "pos": [1825, 825, 950, 415],
-        "specs": [
-            "fit"
-        ]
-    },
-
-
-
-
-
-    {
-        "type": "insert image",
-        "collumn": "illustration_c",
-        "pos": [500, 1250, 1000, 1000],
-        "specs": [
-            "fit"
-        ]
-    },
-    {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
-        "pos": [150, 1650, 1100, 900],
-        "specs": [
-            "opacity 200"
-        ]
-    },
-    {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
-        "pos": [150, 1600, 1100, 500],
-        "specs": [
-            "fit"
         ]
     },
     {
@@ -159,51 +89,10 @@
         "font": "Seagram tfb",
         "cpl": 32,
         "color": [50, 0, 0, 0],
-        "pos": [250, 1745, 935, 185],
+        "pos": [550, 860, 700, 100],
         "specs": [
             "fit",
             "opacity 150"
-        ]
-    },
-    {
-        "type": "insert text",
-        "collumn": "description_c",
-        "font": "EBGaramond-Bold",
-        "cpl": 40,
-        "color": [0, 0, 0, 0],
-        "pos": [225, 1925, 950, 415],
-        "specs": [
-            "fit"
-        ]
-    },
-
-
-
-
-
-    {
-        "type": "insert image",
-        "collumn": "illustration_d",
-        "pos": [1500, 1250, 1000, 1000],
-        "specs": [
-            "fit",
-            "flip horizontal"
-        ]
-    },
-    {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/pannel.png",
-        "pos": [1750, 1650, 1100, 900],
-        "specs": [
-            "opacity 200"
-        ]
-    },
-    {
-        "type": "insert static image",
-        "filepath": "src/images/illustrations/jeu_de_base/villages/ressources/scroll_long.png",
-        "pos": [1750, 1600, 1100, 500],
-        "specs": [
-            "fit"
         ]
     },
     {
@@ -212,10 +101,59 @@
         "font": "Seagram tfb",
         "cpl": 32,
         "color": [50, 0, 0, 0],
-        "pos": [1850, 1745, 935, 185],
+        "pos": [250, 1155, 700, 100],
         "specs": [
             "fit",
             "opacity 150"
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "type": "insert text",
+        "collumn": "description_a",
+        "font": "EBGaramond-Bold",
+        "cpl": 40,
+        "color": [0, 0, 0, 0],
+        "pos": [550, 375, 700, 150],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_b",
+        "font": "EBGaramond-Bold",
+        "cpl": 40,
+        "color": [0, 0, 0, 0],
+        "pos": [250, 675, 700, 150],
+        "specs": [
+            "fit"
+        ]
+    },
+    {
+        "type": "insert text",
+        "collumn": "description_c",
+        "font": "EBGaramond-Bold",
+        "cpl": 40,
+        "color": [0, 0, 0, 0],
+        "pos": [550, 960, 700, 150],
+        "specs": [
+            "fit"
         ]
     },
     {
@@ -224,7 +162,7 @@
         "font": "EBGaramond-Bold",
         "cpl": 40,
         "color": [0, 0, 0, 0],
-        "pos": [1825, 1925, 950, 415],
+        "pos": [250, 1255, 700, 150],
         "specs": [
             "fit"
         ]
