@@ -286,7 +286,7 @@
         "name": "villages",
         "enabled": true,
         "type": "build",
-        "dimensions": [1,2],
+        "dimensions": [2,2],
         "margin": 0,
         "bg_color": [0,0,0],
         "shuffle": false
