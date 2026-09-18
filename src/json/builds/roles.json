@@ -42,7 +42,7 @@
         "type": "insert text",
         "collumn": "description",
         "font": "EBGaramond-Regular",
-        "cpl": 25,
+        "cpl": 26,
         "color": [255,255,100,0],
         "pos": [140,1355,800,275],
         "specs": [
