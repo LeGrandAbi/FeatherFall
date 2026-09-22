@@ -1,0 +1,179 @@
+[
+    {
+        "name": "back",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 0,
+        "bg_color": [255,255,255],
+        "shuffle": false
+    },
+
+
+
+
+
+    {
+        "name": "competences",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "blessures",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "roles",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+
+
+
+
+
+    {
+        "name": "butin_armes",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "butin_babioles",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "butins",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+
+
+
+
+
+    {
+        "name": "armes",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "babioles",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "consommables",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+
+
+
+
+
+    {
+        "name": "quetes",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [2,1],
+        "margin": 0,
+        "bg_color": [255,255,255],
+        "shuffle": false
+    },
+    {
+        "name": "missions",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [2,5],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+
+
+
+
+
+    {
+        "name": "tuiles_1x1",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [4,8],
+        "margin": 0,
+        "bg_color": [0,0,0],
+        "shuffle": true
+    },
+
+
+
+
+
+    {
+        "name": "actions",
+        "enabled": true,
+        "type": "copy",
+        "filenames": [
+            "actions.png"
+        ]
+    },
+
+
+
+
+    {
+        "name": "villages",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [2,2],
+        "margin": 0,
+        "bg_color": [0,0,0],
+        "shuffle": false
+    },
+    {
+        "name": "bestiaire",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [1,4],
+        "margin": 0,
+        "bg_color": [255,255,255],
+        "shuffle": false
+    }
+]
