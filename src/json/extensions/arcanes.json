@@ -40,6 +40,15 @@
         "bg_color": [255,255,255],
         "shuffle": true
     },
+    {
+        "name": "magies",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
 
 
 
