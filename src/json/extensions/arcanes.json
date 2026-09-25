@@ -119,6 +119,47 @@
 
 
     {
+        "name": "evenements_plaine",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "evenements_foret",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "evenements_village",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+    {
+        "name": "evenements_nuit",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [5,2],
+        "margin": 50,
+        "bg_color": [255,255,255],
+        "shuffle": true
+    },
+
+
+
+
+
+    {
         "name": "quetes",
         "enabled": true,
         "type": "build",
