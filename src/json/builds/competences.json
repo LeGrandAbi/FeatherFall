@@ -11,8 +11,9 @@
     {
         "type": "insert static image",
         "filepath": "src/images/illustrations/jeu_de_base/competences/_background.png",
-        "pos": [170,385,750,750],
+        "pos": [120,385,850,750],
         "specs": [
+            "fill",
             "background"
         ]
     },
@@ -22,7 +23,7 @@
         "font": "AncientMedium",
         "cpl": 18,
         "color": [0,0,0,0],
-        "pos": [150,85,800,335],
+        "pos": [150,50,800,335],
         "specs": [
             "fit"
         ]
