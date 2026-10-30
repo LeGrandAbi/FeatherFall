@@ -5,7 +5,7 @@
         "font": "EBGaramond-Bold",
         "cpl": 30,
         "color": [0,0,0,0],
-        "pos": [90,670,810,450],
+        "pos": [90,800,800,450],
         "specs": [
             "fit"
         ]
@@ -16,7 +16,7 @@
         "font": "EBGaramond-Regular",
         "cpl": 35,
         "color": [0,0,0,0],
-        "pos": [140,1165,720,390],
+        "pos": [140,1365,720,450],
         "specs": [
             "fit"
         ]
@@ -33,7 +33,7 @@
     {
         "type": "insert static image",
         "filepath": "src/images/illustrations/jeu_de_base/evenements_plaine/background.png",
-        "pos": [50,50,890,650],
+        "pos": [50,75,890,650],
         "specs": [
             "fit",
             "background"
