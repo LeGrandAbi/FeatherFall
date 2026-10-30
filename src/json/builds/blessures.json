@@ -2,7 +2,7 @@
     {
         "type": "insert image",
         "collumn": "illustration",
-        "pos": [170,420,750,680],
+        "pos": [170,390,750,630],
         "specs": [
             "fit",
             "background"
@@ -23,7 +23,7 @@
         "font": "AncientMedium",
         "cpl": 15,
         "color": [0,0,0,0],
-        "pos": [150,50,800,335],
+        "pos": [150,30,800,335],
         "specs": [
             "fit"
         ]
@@ -34,7 +34,7 @@
         "font": "EBGaramond-Regular",
         "cpl": 30,
         "color": [30,30,50,0],
-        "pos": [120,1245,850,390],
+        "pos": [120,1150,850,390],
         "specs": [
             "fit"
         ]
@@ -42,12 +42,12 @@
     {
         "type": "insert icons",
         "collumn": "tags",
-        "pos": [855,1090,120,120],
+        "pos": [855,1025,120,120],
         "displacement": [-1,0],
         "offset": 15
     },
     {
         "type": "insert label",
-        "pos": [115,1090,120,120]
+        "pos": [115,1025,120,120]
     }
 ]
