@@ -200,27 +200,27 @@
         "name": "tuiles_1x1",
         "enabled": true,
         "type": "build",
-        "dimensions": [4,8],
+        "dimensions": [4,6],
         "margin": 0,
-        "bg_color": [0,0,0],
+        "bg_color": [255,255,255],
         "shuffle": true
     },
     {
         "name": "tuiles_2x1",
         "enabled": true,
         "type": "build",
-        "dimensions": [2,8],
+        "dimensions": [2,6],
         "margin": 0,
-        "bg_color": [0,0,0],
+        "bg_color": [255,255,255],
         "shuffle": true
     },
     {
         "name": "tuiles_2x2",
         "enabled": true,
         "type": "build",
-        "dimensions": [2,4],
+        "dimensions": [2,3],
         "margin": 0,
-        "bg_color": [0,0,0],
+        "bg_color": [255,255,255],
         "shuffle": true
     },
 
