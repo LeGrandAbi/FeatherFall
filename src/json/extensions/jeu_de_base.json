@@ -50,7 +50,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
@@ -59,7 +59,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
@@ -68,7 +68,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
@@ -82,7 +82,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
@@ -91,7 +91,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
@@ -100,7 +100,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
@@ -164,7 +164,7 @@
         "enabled": true,
         "type": "build",
         "dimensions": [2,5],
-        "margin": 50,
+        "margin": 20,
         "bg_color": [255,255,255],
         "shuffle": true
     },
