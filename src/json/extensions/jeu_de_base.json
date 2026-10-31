@@ -1,6 +1,6 @@
 [
     {
-        "name": "back",
+        "name": "back_5x2",
         "enabled": true,
         "type": "build",
         "dimensions": [5,2],
