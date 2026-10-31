@@ -8,6 +8,15 @@
         "bg_color": [255,255,255],
         "shuffle": false
     },
+    {
+        "name": "back_3x3",
+        "enabled": true,
+        "type": "build",
+        "dimensions": [3,3],
+        "margin": 0,
+        "bg_color": [255,255,255],
+        "shuffle": false
+    },
 
 
 
